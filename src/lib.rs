@@ -113,7 +113,6 @@ pin-project supports this.
 [not-unpin-lite]: pin_project#unpin
 */
 
-#![no_std]
 #![doc(test(
     no_crate_inject,
     attr(

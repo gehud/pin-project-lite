@@ -22,6 +22,7 @@ allowed_external_types = [
 
 [lib]
 doc-scrape-examples = false
+crate-type = ["rlib", "dylib"]
 
 [dev-dependencies]
 macrotest = { git = "https://github.com/taiki-e/macrotest.git", branch = "dev-old-msrv" } # adjust overwrite behavior + no cargo-expand + lower MSRV
